@@ -25,7 +25,7 @@ public class ExampleMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		Registry.register(Registry.ITEM, new Identifier("tutorial", "fabric_item"), FABRIC_ITEM);
-		Registry.register(Registry.BLOCK, new Identifier("tutorial", "fabric_block"), EXAMPLE_BLOCK);
+		Registry.register(Registry.BLOCK, new Identifier("tutorial", "example_block"), EXAMPLE_BLOCK);
 		Registry.register(Registry.ITEM, new Identifier("tutorial", "example_block"), new BlockItem(EXAMPLE_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
 	}
 }

@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.noblekalish.ExampleMod"
+      "com.github.noblekalish.NewCivilization"
     ]
   },
   "mixins": [
